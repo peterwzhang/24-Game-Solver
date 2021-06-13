@@ -41,9 +41,8 @@ int main() {
     return 0;
 }
 
-double calc(
-    int op, double num,
-    double num2) {  // i = operation,num and num2 are the numbers to operate
+double calc(int op, double num, double num2) {
+    // i = operation,num and num2 are the numbers to operate
     double returnVal;
     switch (op) {
         case 0:  // add
